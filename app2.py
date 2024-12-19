@@ -7,7 +7,7 @@ import os
 # Initialize Flask app
 app = Flask(__name__)
 
-os.environ["HUGGING_FACE_API_KEY"] = "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"
+os.environ["HUGGING_FACE_API_KEY"] = "" # Use your own token
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
