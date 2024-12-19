@@ -7,7 +7,7 @@ import pyttsx3
 # Initialize Flask app
 app = Flask(__name__)
 
-os.environ["HUGGING_FACE_API_KEY"] = "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"
+os.environ["HUGGING_FACE_API_KEY"] = "" # Use your own token
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
